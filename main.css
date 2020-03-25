@@ -1,0 +1,59 @@
+body{font-family: 'Noto Sans KR', sans-serif;
+}
+header{height: 60px;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+#logo{padding-top: 17px;
+    float: left;
+    width:162px;
+    height:24px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu{width:60%;
+    float: left;
+    margin-left: -50px;
+}
+.menu li{list-style-type: none;
+    float: left;
+}
+.menu a{opacity: 0.5;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 23px;
+    color: black;
+    padding: 0 15px;
+    display: block;
+    margin-left: 25px;
+}
+.menu a:hover{
+    opacity: 0.8;
+}
+.wrapper{width: 1170px;
+}
+.clearfix{content: '';
+    display: block;
+    clear: both;
+}
+/*------------------------------------------*/
+#yt{margin-top: 150px;
+    width: 202px;
+    height: 45px;
+}
+.intro{text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    max-width: 550;
+
+}
+.intro section{
+    margin-top: 17px;
+    line-height: 1.3125;
+}
