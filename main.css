@@ -1,5 +1,39 @@
 body{font-family: 'Noto Sans KR', sans-serif;
 }
+/*------------------------------------------*/
+.googleRight{
+    background: #fff;
+    height: 1px;
+    position: absolute;
+    width: 120%;
+    z-index: -10;
+
+    background-color: #EDEDED;
+    bottom: -470px;
+    height: 350px;  
+    right: 0;
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+}
+.googleLeft{
+    background: #fff;
+    height: 1px;
+    position: absolute;
+    width: 120%;
+    z-index: -10;
+
+    background-color: #EDEDED;
+    bottom: -470px;
+    height: 350px;
+    right: 0;
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+}
+/*------------------------------------------*/
 header{height: 60px;
     background-color: white;
     border: 1px solid #dcdcdc;
@@ -47,7 +81,7 @@ header{height: 60px;
     width: 202px;
     height: 45px;
 }
-.intro{text-align: center;
+.intro,.article{text-align: center;
     font-size: 32px;
     font-weight: 300;
     max-width: 550;
@@ -56,4 +90,28 @@ header{height: 60px;
 .intro section{
     margin-top: 17px;
     line-height: 1.3125;
+}
+/*------------------------------------------*/
+.block{
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1040px;
+    height: 200px;
+}
+.title{
+    font-weight: bold;
+    font-size: 45px;
+}
+.title_right{
+    padding-left: 50%;
+    font-weight: 900;
+    font-size: 45px;
+}
+.text{
+    font-size: 14px;
+}
+.text_right{
+    padding-left: 50%;
+    font-size: 14px;
 }
